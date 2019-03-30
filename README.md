@@ -9,6 +9,7 @@ In this article, we will research for optimizing about packet-forwarding perform
 - **[6. Reference](#ref)**
 
 ![smp](/images/smp.png)
+
 First, we chose Intel I350 interface that is supported by the igb driver in Linux, which is produced by Intel itself and  has a good performer. Each I350 interface presents up to 8 send/receive queues with system.
 
 ## Mechanisms
