@@ -43,6 +43,7 @@ TxRx-4	·	·	·	·	×	·
 TxRx-5	·	·	·	·	·	×
 ```
 ![affinity](/images/affinity.png)
+
 Each pair of send/receive queues is associated with a single IRQ, each CPU will handle **1 send queue** + **1 receive queue** + **1 IRQ**.
 
 <a name="result"></a>
